@@ -577,13 +577,18 @@ href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/cerulean/bootstrap.min
             Remove duplicates</label>
             </div>
             </fieldset>
-
-        <button class="btn btn-primary" type="submit" value="generate"
-            name="action">Generate (PDF, slow)</button>
-        <button class="btn btn-primary" type="submit" value="preview_small"
-            name="action">Preview (SVG, zoomed out)</button>
-        <button class="btn btn-primary" type="submit" value="preview_large"
-            name="action">Preview (SVG, zoomed in)</button>
+            <!-- najmniej topornie na co mnie stac ;) -->
+        <div class="row">
+            <div class="col-xs-12 col-md-4">
+                <button class="btn btn-primary btn-block mt-2" type="submit" value="generate" name="action">Generate (PDF, slow)</button>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <button class="btn btn-primary btn-block mt-2" type="submit" value="preview_small" name="action">Preview (SVG, zoomed out)</button>
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <button class="btn btn-primary btn-block mt-2" type="submit" value="preview_large" name="action">Preview (SVG, zoomed in)</button>
+            </div>
+        </div>
     </form>
     </div>
 
